@@ -22,7 +22,7 @@ data "aws_ami" "node_app_ami" {
 
   filter {
     name   = "name"
-    values = ["packer-example*"]
+    values = ["java-packer-example*"]
   }
 
   filter {
